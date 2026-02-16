@@ -312,14 +312,14 @@
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
     <line x1="562.0" y1="124.6" x2="579.6" y2="120.7" stroke="#00d4ff" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="579.6" y="123.7" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">PostgreSQL</text>
-    <text x="579.6" y="123.7" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">PostgreSQL</text>
+    <text x="579.6" y="123.7" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Nest.js</text>
+    <text x="579.6" y="123.7" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Nest.js</text>
     <circle cx="652.5" cy="156.0" r="2.5" fill="#00d4ff" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.0999999999999996s" repeatCount="indefinite"/>
     </circle>
     <line x1="652.5" y1="156.0" x2="670.5" y2="156.1" stroke="#00d4ff" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="670.5" y="159.1" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Nest.js</text>
-    <text x="670.5" y="159.1" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Nest.js</text>
+    <text x="670.5" y="159.1" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">PostgreSQL</text>
+    <text x="670.5" y="159.1" text-anchor="start" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">PostgreSQL</text>
     <circle cx="623.9" cy="202.4" r="2.5" fill="#00d4ff" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.8s" repeatCount="indefinite"/>
     </circle>
