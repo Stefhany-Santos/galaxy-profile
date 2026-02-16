@@ -59,20 +59,25 @@ projects:
     arm: 2
     description: "Automação de perfil com GitHub Actions e Python."
 
+
 theme:
-  void: "#0e021a"            # Fundo: Roxo Meia-Noite (Parece preto, mas é roxo. Harmoniza com a foto)
-  nebula: "#19052b"          # Cards: Roxo Uva Profundo (Continuidade do fundo da foto)
-  star_dust: "#4a0e69"       # Bordas: Orquídea Escura (Sutil, mas elegante)
+  void: "#160e26"            # Fundo: Roxo Índigo (A chave da harmonia: elimina o "recorte")
+  nebula: "#251b3b"          # Cards: Um tom acima do fundo, sutil.
+  star_dust: "#4c3a6e"       # Bordas: Roxo médio elegante
   
-  # As cores das estrelas (Braços)
-  dendrite_violet: "#ff007f" # Braço 1: Magenta Puro (Igual ao glow da sua foto)
-  synapse_cyan: "#00f2ff"    # Braço 2: Ciano Laser (Contraste máximo)
-  axon_amber: "#9d4edd"      # Braço 3: Roxo Ametista (Harmonia)
+  # Braço 1 (Frontend): O Rosa exato do seu anel de perfil
+  dendrite_violet: "#e94584" 
+  
+  # Braço 2 (Backend): Roxo Lavanda (Conecta o fundo com o rosa)
+  synapse_cyan: "#a78bfa"    
+  
+  # Braço 3 (DevOps): Ouro/Mel (Contraste quente que combina com sua pele)
+  axon_amber: "#ffb020"      
   
   # Tipografia
-  text_bright: "#ffffff"     # Branco Puro (Igual ao anel branco em volta da sua foto)
-  text_dim: "#e0aaff"        # Lavanda Pálido (Melhor que cinza, mantém a vibe roxa)
-  text_faint: "#9d8189"
+  text_bright: "#ffffff"
+  text_dim: "#e9d5ff"
+  text_faint: "#9f8ea6"
 
 # Métricas
 stats:
