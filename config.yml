@@ -1,9 +1,10 @@
 # Galaxy Profile Configuration - Stefhany Santos
 # Configuração personalizada: Especialista Frontend -> Engenharia Full Cycle
+# Tema personalizado para combinar com a foto de perfil (Tons Terrosos & Quentes)
 
 username: Stefhany-Santos
 
-# O cabeçalho agora destaca sua graduação e o momento atual Engenheira de Software Full Stack | React • Java • Arquitetura
+# Cabeçalho da Galáxia
 profile:
   name: "Stefhany Santos"
   tagline: "Software Engineer | Angular • Java • Arquitetura"
@@ -15,19 +16,17 @@ profile:
     Graduanda em Ciência da Computação (UNIP).
   philosophy: '"Da interface ao banco de dados: código limpo e pixel perfect."'
 
-# Links atualizados
+# Links Sociais
 social:
   email: "stefhany.contato@outlook.com"
   linkedin: "stefhany-santos"
   website: "https://github.com/Stefhany-Santos"
 
-# Galaxy Arms: A Narrativa da sua Carreira
-# Braço 1: Sua fortaleza atual (Frontend)
-# Braço 2: Seu foco de estudo intenso (Backend)
-# Braço 3: A infraestrutura que sustenta tudo (DevOps)
+# Braços da Galáxia
+# As cores agora são quentes: Terracota, Ouro e Laranja Queimado.
 galaxy_arms:
   - name: "Frontend Mastery"
-    color: "dendrite_violet" # Roxo (Combinando com o tema espacial)
+    color: "dendrite_violet" # Visualmente será um Terracota/Rosé
     items:
       - "Angular"
       - "TypeScript"
@@ -37,7 +36,7 @@ galaxy_arms:
       - "Figma"
 
   - name: "Backend Eng."
-    color: "synapse_cyan"    # Ciano (Futurista)
+    color: "synapse_cyan"    # Visualmente será um Ouro Envelhecido
     items:
       - "Java"
       - "Spring Boot"
@@ -46,7 +45,7 @@ galaxy_arms:
       - "Clean Architecture"
 
   - name: "DevOps & Cloud"
-    color: "axon_amber"      # Laranja (Energia)
+    color: "axon_amber"      # Visualmente será um Laranja Queimado
     items:
       - "Docker"
       - "Kubernetes"
@@ -54,28 +53,26 @@ galaxy_arms:
       - "GitOps"
       - "Kafka"
 
-# Projetos: Destaque o próprio perfil como automação e deixe espaço para o futuro
+# Projetos em Destaque
 projects:
   - repo: "Stefhany-Santos/galaxy-profile" 
-    arm: 2 # Aponta para o braço de DevOps (pois usa GitHub Actions)
-    description: "Pipeline de CI/CD com Python para automação de portfólio."
-  
-  # DICA: Assim que você começar o Codeflix no Full Cycle, descomente abaixo:
-  # - repo: "Stefhany-Santos/codeflix-backend"
-  #   arm: 1
-  #   description: "Microserviço de streaming com Clean Architecture e Java."
+    arm: 2
+    description: "Automação de perfil com GitHub Actions e Python."
 
+# Tema: Elegância Terrosa
+# Uma paleta rica e quente para combinar com sua foto.
 theme:
-  void: "#080c14"
-  nebula: "#0f1623"
-  star_dust: "#1a2332"
-  synapse_cyan: "#00d4ff"
-  dendrite_violet: "#a78bfa"
-  axon_amber: "#ffb020"
-  text_bright: "#f1f5f9"
-  text_dim: "#94a3b8"
-  text_faint: "#64748b"
+  void: "#140f0b"            # Fundo super escuro, tom café expresso
+  nebula: "#1f1812"          # Fundo dos cards, marrom chocolate
+  star_dust: "#33271e"       # Bordas, marrom terra
+  synapse_cyan: "#d9a520"    # Cor do Braço 2: Ouro envelhecido (era ciano)
+  dendrite_violet: "#d17a5f" # Cor do Braço 1: Terracota suave (era violeta)
+  axon_amber: "#c8553d"      # Cor do Braço 3: Laranja queimado intenso
+  text_bright: "#f2e8df"     # Texto principal, creme
+  text_dim: "#c7b19f"        # Texto secundário, bege quente
+  text_faint: "#8f7a6a"      # Texto apagado, marrom claro
 
+# Métricas
 stats:
   metrics:
     - "commits"
@@ -84,11 +81,12 @@ stats:
     - "issues"
     - "repos"
 
+# Configurações de Linguagem
 languages:
   exclude:
     - "HTML"
     - "CSS"
     - "Shell"
     - "Makefile"
-    - "SCSS" # Adicionei SCSS para focar nas linguagens de lógica
+    - "SCSS"
   max_display: 8
