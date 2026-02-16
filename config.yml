@@ -1,77 +1,81 @@
 # Galaxy Profile Configuration - Stefhany Santos
-# Configuração personalizada para transição Frontend -> Engenharia de Software
+# Configuração personalizada: Especialista Frontend -> Engenharia Full Cycle
 
-# Seu nome de usuário do GitHub (Exatamente como aparece na URL)
 username: Stefhany-Santos
 
-# Informações do Perfil (Cabeçalho da Galáxia)
+# O cabeçalho agora destaca sua graduação e o momento atual Engenheira de Software Full Stack | React • Java • Arquitetura
 profile:
   name: "Stefhany Santos"
-  tagline: "Engenheira de Software Full Stack | React • Java • Arquitetura"
+  tagline: "Software Engineer | Angular • Java • Arquitetura"
   company: "Coaliza"
-  location: "Minas Gerais, Brasil"
+  location: "São Paulo, Brasil"
   bio: |
-    Desenvolvedora com 4+ anos de experiência em produtos digitais.
-    Especialista em Front-end expandindo para Engenharia de Software e Sistemas Distribuídos.
-    Focada em Clean Architecture, DDD e entrega de valor real.
-  philosophy: '"Código limpo, arquitetura sólida e mira precisa nos bugs."'
+    4+ anos criando interfaces de alto impacto com Angular & React.
+    Atualmente mergulhada na Engenharia de Software: Java, Spring Boot e Arquitetura Hexagonal.
+    Graduanda em Ciência da Computação (UNIP).
+  philosophy: '"Da interface ao banco de dados: código limpo e pixel perfect."'
 
-# Links Sociais
+# Links atualizados
 social:
   email: "stefhany.contato@outlook.com"
   linkedin: "stefhany-santos"
-  website: "https://www.linkedin.com/in/stefhany-santos/"
+  website: "https://github.com/Stefhany-Santos"
 
-# Braços da Galáxia (Suas Áreas de Foco)
-# Aqui dividimos entre sua base sólida (Front) e seus estudos avançados (Back/Infra)
+# Galaxy Arms: A Narrativa da sua Carreira
+# Braço 1: Sua fortaleza atual (Frontend)
+# Braço 2: Seu foco de estudo intenso (Backend)
+# Braço 3: A infraestrutura que sustenta tudo (DevOps)
 galaxy_arms:
-  - name: "Frontend Core"
-    color: "dendrite_violet"
+  - name: "Frontend Mastery"
+    color: "dendrite_violet" # Roxo (Combinando com o tema espacial)
     items:
+      - "Angular"
       - "TypeScript"
       - "React"
-      - "Angular"
       - "Next.js 15"
-  - name: "Backend & Eng"
-    color: "synapse_cyan"
+      - "Ionic"
+      - "Figma"
+
+  - name: "Backend Eng."
+    color: "synapse_cyan"    # Ciano (Futurista)
     items:
       - "Java"
       - "Spring Boot"
+      - "PostgreSQL"
       - "Nest.js"
-      - "Node.js"
-  - name: "Infra & Cloud"
-    color: "axon_amber"
+      - "Clean Architecture"
+
+  - name: "DevOps & Cloud"
+    color: "axon_amber"      # Laranja (Energia)
     items:
       - "Docker"
       - "Kubernetes"
-      - "Kafka"
+      - "Azure DevOps"
       - "GitOps"
+      - "Kafka"
 
-# Projetos em Destaque (Constelações)
-# IMPORTANTE: Substitua "seu-usuario/nome-do-repo" pelos seus repositórios reais!
-# Se não tiver 2 projetos prontos agora, você pode comentar essas linhas colocando # na frente.
+# Projetos: Destaque o próprio perfil como automação e deixe espaço para o futuro
 projects:
   - repo: "Stefhany-Santos/galaxy-profile" 
-    arm: 2
-    description: "Automação de perfil com GitHub Actions e Python."
-  # Exemplo futuro (quando você subir o Codeflix):
+    arm: 2 # Aponta para o braço de DevOps (pois usa GitHub Actions)
+    description: "Pipeline de CI/CD com Python para automação de portfólio."
+  
+  # DICA: Assim que você começar o Codeflix no Full Cycle, descomente abaixo:
   # - repo: "Stefhany-Santos/codeflix-backend"
   #   arm: 1
-  #   description: "Microserviço de streaming com Clean Arch e Java."
+  #   description: "Microserviço de streaming com Clean Architecture e Java."
 
-# Tema (Cores do Espaço Profundo - Padrão)
 theme:
-  void: "#080c14"              # Fundo mais escuro
-  nebula: "#0f1623"            # Fundo dos cards
-  star_dust: "#1a2332"         # Bordas
-  synapse_cyan: "#00d4ff"      # Cor do Braço 2 (Backend)
-  dendrite_violet: "#a78bfa"   # Cor do Braço 1 (Frontend)
-  axon_amber: "#ffb020"        # Cor do Braço 3 (Infra)
-  text_bright: "#f1f5f9"       # Texto principal
-  text_dim: "#94a3b8"          # Texto secundário
-  text_faint: "#64748b"        # Texto apagado
+  void: "#080c14"
+  nebula: "#0f1623"
+  star_dust: "#1a2332"
+  synapse_cyan: "#00d4ff"
+  dendrite_violet: "#a78bfa"
+  axon_amber: "#ffb020"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
 
-# Métricas para exibir
 stats:
   metrics:
     - "commits"
@@ -80,11 +84,11 @@ stats:
     - "issues"
     - "repos"
 
-# Configurações de Linguagem
 languages:
-  exclude:                     # Esconde linguagens que não agregam valor ao gráfico
+  exclude:
     - "HTML"
     - "CSS"
     - "Shell"
     - "Makefile"
-  max_display: 8               # Máximo de linguagens no gráfico
+    - "SCSS" # Adicionei SCSS para focar nas linguagens de lógica
+  max_display: 8
