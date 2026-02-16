@@ -59,18 +59,25 @@ projects:
     arm: 2
     description: "Automação de perfil com GitHub Actions e Python."
 
-# Tema: Elegância Terrosa
-# Uma paleta rica e quente para combinar com sua foto.
+# Tema: Cyberpunk Violet (Alto Contraste & Neon)
+# Fundo preto para destacar as estrelas + Cores do seu Banner (Roxo/Rosa)
 theme:
-  void: "#140f0b"            # Fundo super escuro, tom café expresso
-  nebula: "#1f1812"          # Fundo dos cards, marrom chocolate
-  star_dust: "#33271e"       # Bordas, marrom terra
-  synapse_cyan: "#d9a520"    # Cor do Braço 2: Ouro envelhecido (era ciano)
-  dendrite_violet: "#d17a5f" # Cor do Braço 1: Terracota suave (era violeta)
-  axon_amber: "#c8553d"      # Cor do Braço 3: Laranja queimado intenso
-  text_bright: "#f2e8df"     # Texto principal, creme
-  text_dim: "#c7b19f"        # Texto secundário, bege quente
-  text_faint: "#8f7a6a"      # Texto apagado, marrom claro
+  void: "#050505"            # Preto quase puro (faz as estrelas brilharem)
+  nebula: "#0f0518"          # Roxo muito escuro (sutil no fundo)
+  star_dust: "#2e1065"       # Bordas em roxo discreto
+  
+  # Braço 1 (Frontend): Rosa Neon (Combina com o anel da sua foto e Angular)
+  dendrite_violet: "#f72585" 
+  
+  # Braço 2 (Backend): Azul Ciano (Combina com React/Java e dá contraste)
+  synapse_cyan: "#4cc9f0"    
+  
+  # Braço 3 (DevOps): Roxo Elétrico (Combina com o seu Banner do LinkedIn)
+  axon_amber: "#7209b7"      
+  
+  text_bright: "#ffffff"     # Branco puro (Leitura perfeita)
+  text_dim: "#cbd5e1"        # Cinza azulado claro
+  text_faint: "#64748b"      # Cinza azulado escuro
 
 # Métricas
 stats:
