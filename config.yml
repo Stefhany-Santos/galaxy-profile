@@ -60,23 +60,26 @@ projects:
     description: "Automação de perfil com GitHub Actions e Python."
 
 theme:
-  void: "#160e26"            # Fundo: Roxo Índigo (A chave da harmonia: elimina o "recorte")
-  nebula: "#251b3b"          # Cards: Um tom acima do fundo, sutil.
-  star_dust: "#4c3a6e"       # Bordas: Roxo médio elegante
+  void: "#0b0514"            # Roxo Profundo (Quase preto, dá profundidade infinita)
+  nebula: "#150a26"          # Cards: Roxo muito escuro e elegante
+  star_dust: "#3b2166"       # Bordas: Roxo real (destaca sutilmente os boxes)
   
-  # Braço 1 (Frontend): O Rosa exato do seu anel de perfil
-  dendrite_violet: "#e94584" 
+  # Braço 1 (Frontend): Magenta Neon Vibrante
+  # (Combina perfeitamente com o brilho rosa do seu perfil)
+  dendrite_violet: "#ff00cc" 
   
-  # Braço 2 (Backend): Roxo Lavanda (Conecta o fundo com o rosa)
-  synapse_cyan: "#a78bfa"    
+  # Braço 2 (Backend): Roxo Ametista
+  # (A base sólida da sua stack)
+  synapse_cyan: "#9d4edd"    
   
-  # Braço 3 (DevOps): Ouro/Mel (Contraste quente que combina com sua pele)
-  axon_amber: "#ffb020"      
+  # Braço 3 (DevOps): Ouro Puro
+  # (Traz luz e contraste quente, sem ficar laranja demais)
+  axon_amber: "#ffd700"      
   
   # Tipografia
-  text_bright: "#ffffff"     # Branco puro (Igual ao contorno da foto)
-  text_dim: "#e9d5ff"        # Lilás muito claro (Leitura suave)
-  text_faint: "#9f8ea6"      # Acinzentado quente
+  text_bright: "#ffffff"     # Branco puro (Crucial para ler bem no fundo escuro)
+  text_dim: "#e0c3fc"        # Lavanda Neon Claro (Muito mais legível que cinza)
+  text_faint: "#7b6194"      # Roxo acinzentado
 
 
 # Métricas
