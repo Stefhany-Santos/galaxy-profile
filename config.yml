@@ -41,8 +41,8 @@ galaxy_arms:
     items:
       - "Java"
       - "Spring Boot"
-      - "PostgreSQL"
       - "Nest.js"
+      - "PostgreSQL"
       - "Clean Architecture"
 
   - name: "DevOps & Cloud"
