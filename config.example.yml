@@ -1,84 +1,77 @@
-# Galaxy Profile README Configuration
-# Copy this file to config.yml and customize it to make it your own!
-#
-# Usage:
-#   cp config.example.yml config.yml
-#   # Edit config.yml with your details
-#   python -m generator.main
-#
-# Demo mode (no API calls, uses this file directly):
-#   python -m generator.main --demo
+# Galaxy Profile Configuration - Stefhany Santos
+# Configuração personalizada para transição Frontend -> Engenharia de Software
 
-# Your GitHub username (required)
-username: galaxy-dev
+# Seu nome de usuário do GitHub (Exatamente como aparece na URL)
+username: Stefhany-Santos
 
-# Profile information displayed in the galaxy header
+# Informações do Perfil (Cabeçalho da Galáxia)
 profile:
-  name: "Nyx Orion"
-  tagline: "Full Stack Developer & Open Source Explorer"
-  company: "Stellar Labs"
-  location: "San Francisco, CA"
+  name: "Stefhany Santos"
+  tagline: "Engenheira de Software Full Stack | React • Java • Arquitetura"
+  company: "Coaliza"
+  location: "Minas Gerais, Brasil"
   bio: |
-    Building tools that make developers' lives easier.
-    Passionate about distributed systems, developer experience, and the open-source ecosystem.
-  philosophy: '"The best code is the code that empowers others."'
+    Desenvolvedora com 4+ anos de experiência em produtos digitais.
+    Especialista em Front-end expandindo para Engenharia de Software e Sistemas Distribuídos.
+    Focada em Clean Architecture, DDD e entrega de valor real.
+  philosophy: '"Código limpo, arquitetura sólida e mira precisa nos bugs."'
 
-# Social links displayed at the bottom of the profile
+# Links Sociais
 social:
-  email: "nyx@stellarlabs.dev"
-  linkedin: "nyxorion"
-  website: "https://nyxorion.dev"
+  email: "stefhany.contato@outlook.com"
+  linkedin: "stefhany-santos"
+  website: "https://www.linkedin.com/in/stefhany-santos/"
 
-# Galaxy arms represent your core focus areas
-# Each arm spirals out from the center with its own color and tech items
-# Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
+# Braços da Galáxia (Suas Áreas de Foco)
+# Aqui dividimos entre sua base sólida (Front) e seus estudos avançados (Back/Infra)
 galaxy_arms:
-  - name: "Frontend"
+  - name: "Frontend Core"
     color: "dendrite_violet"
     items:
       - "TypeScript"
       - "React"
-      - "CSS"
-  - name: "Backend"
+      - "Angular"
+      - "Next.js 15"
+  - name: "Backend & Eng"
     color: "synapse_cyan"
     items:
-      - "Python"
+      - "Java"
+      - "Spring Boot"
+      - "Nest.js"
       - "Node.js"
-      - "PostgreSQL"
-  - name: "DevOps"
+  - name: "Infra & Cloud"
     color: "axon_amber"
     items:
       - "Docker"
-      - "GitHub Actions"
-      - "AWS"
+      - "Kubernetes"
+      - "Kafka"
+      - "GitOps"
 
-# Featured projects shown as constellation stars
-# Each project needs:
-#   repo: "owner/repo-name"   — GitHub repository path
-#   arm: 0-2                  — Which galaxy arm to associate with (index)
-#   description: "..."        — Short description shown on the card
+# Projetos em Destaque (Constelações)
+# IMPORTANTE: Substitua "seu-usuario/nome-do-repo" pelos seus repositórios reais!
+# Se não tiver 2 projetos prontos agora, você pode comentar essas linhas colocando # na frente.
 projects:
-  - repo: "galaxy-dev/nebula-ui"
-    arm: 0
-    description: "A component library with cosmic design tokens and dark-first theming."
-  - repo: "galaxy-dev/stargate-api"
-    arm: 1
-    description: "High-performance API gateway with built-in observability and caching."
+  - repo: "Stefhany-Santos/galaxy-profile" 
+    arm: 2
+    description: "Automação de perfil com GitHub Actions e Python."
+  # Exemplo futuro (quando você subir o Codeflix):
+  # - repo: "Stefhany-Santos/codeflix-backend"
+  #   arm: 1
+  #   description: "Microserviço de streaming com Clean Arch e Java."
 
-# Theme color overrides (optional — defaults to deep space palette)
-# All values must be valid hex color codes (#RRGGBB)
+# Tema (Cores do Espaço Profundo - Padrão)
 theme:
-  void: "#080c14"              # Darkest background
-  nebula: "#0f1623"            # Card backgrounds
-  star_dust: "#1a2332"         # Borders, dividers
-  synapse_cyan: "#00d4ff"      # Primary accent (arm color 1)
-  dendrite_violet: "#a78bfa"   # Secondary accent (arm color 2)
-  axon_amber: "#ffb020"        # Tertiary accent (arm color 3)
-  text_bright: "#f1f5f9"       # Primary text
-  text_dim: "#94a3b8"          # Secondary text
-  text_faint: "#64748b"        # Muted text, labels
+  void: "#080c14"              # Fundo mais escuro
+  nebula: "#0f1623"            # Fundo dos cards
+  star_dust: "#1a2332"         # Bordas
+  synapse_cyan: "#00d4ff"      # Cor do Braço 2 (Backend)
+  dendrite_violet: "#a78bfa"   # Cor do Braço 1 (Frontend)
+  axon_amber: "#ffb020"        # Cor do Braço 3 (Infra)
+  text_bright: "#f1f5f9"       # Texto principal
+  text_dim: "#94a3b8"          # Texto secundário
+  text_faint: "#64748b"        # Texto apagado
 
-# Stats configuration — which metrics to show on the telemetry card
+# Métricas para exibir
 stats:
   metrics:
     - "commits"
@@ -87,11 +80,11 @@ stats:
     - "issues"
     - "repos"
 
-# Language display settings
+# Configurações de Linguagem
 languages:
-  exclude:                     # Languages to hide from the telemetry chart
+  exclude:                     # Esconde linguagens que não agregam valor ao gráfico
     - "HTML"
     - "CSS"
     - "Shell"
     - "Makefile"
-  max_display: 8               # Maximum number of languages to show
+  max_display: 8               # Máximo de linguagens no gráfico
