@@ -59,25 +59,20 @@ projects:
     arm: 2
     description: "Automação de perfil com GitHub Actions e Python."
 
-# Tema: Cyberpunk Violet (Alto Contraste & Neon)
-# Fundo preto para destacar as estrelas + Cores do seu Banner (Roxo/Rosa)
 theme:
-  void: "#050505"            # Preto quase puro (faz as estrelas brilharem)
-  nebula: "#0f0518"          # Roxo muito escuro (sutil no fundo)
-  star_dust: "#2e1065"       # Bordas em roxo discreto
+  void: "#0e021a"            # Fundo: Roxo Meia-Noite (Parece preto, mas é roxo. Harmoniza com a foto)
+  nebula: "#19052b"          # Cards: Roxo Uva Profundo (Continuidade do fundo da foto)
+  star_dust: "#4a0e69"       # Bordas: Orquídea Escura (Sutil, mas elegante)
   
-  # Braço 1 (Frontend): Rosa Neon (Combina com o anel da sua foto e Angular)
-  dendrite_violet: "#f72585" 
+  # As cores das estrelas (Braços)
+  dendrite_violet: "#ff007f" # Braço 1: Magenta Puro (Igual ao glow da sua foto)
+  synapse_cyan: "#00f2ff"    # Braço 2: Ciano Laser (Contraste máximo)
+  axon_amber: "#9d4edd"      # Braço 3: Roxo Ametista (Harmonia)
   
-  # Braço 2 (Backend): Azul Ciano (Combina com React/Java e dá contraste)
-  synapse_cyan: "#4cc9f0"    
-  
-  # Braço 3 (DevOps): Roxo Elétrico (Combina com o seu Banner do LinkedIn)
-  axon_amber: "#7209b7"      
-  
-  text_bright: "#ffffff"     # Branco puro (Leitura perfeita)
-  text_dim: "#cbd5e1"        # Cinza azulado claro
-  text_faint: "#64748b"      # Cinza azulado escuro
+  # Tipografia
+  text_bright: "#ffffff"     # Branco Puro (Igual ao anel branco em volta da sua foto)
+  text_dim: "#e0aaff"        # Lavanda Pálido (Melhor que cinza, mantém a vibe roxa)
+  text_faint: "#9d8189"
 
 # Métricas
 stats:
