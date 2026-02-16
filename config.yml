@@ -61,23 +61,27 @@ projects:
 
 
 theme:
-  void: "#160e26"            # Fundo: Roxo Índigo (A chave da harmonia: elimina o "recorte")
-  nebula: "#251b3b"          # Cards: Um tom acima do fundo, sutil.
-  star_dust: "#4c3a6e"       # Bordas: Roxo médio elegante
+  void: "#000000"            # Preto Puro (Contraste infinito)
+  nebula: "#0a0a0a"          # Preto Suave (Para separar os cards do fundo)
+  star_dust: "#333333"       # Cinza Chumbo (Bordas discretas e elegantes)
   
-  # Braço 1 (Frontend): O Rosa exato do seu anel de perfil
-  dendrite_violet: "#e94584" 
+  # Braço 1 (Frontend): BRANCO PURO
+  # Combina com o anel em volta da sua foto e representa "Clean Code"
+  dendrite_violet: "#ffffff" 
   
-  # Braço 2 (Backend): Roxo Lavanda (Conecta o fundo com o rosa)
-  synapse_cyan: "#a78bfa"    
+  # Braço 2 (Backend): ROXO VIBRANTE
+  # A cor exata do fundo da sua foto de perfil
+  synapse_cyan: "#a855f7"    
   
-  # Braço 3 (DevOps): Ouro/Mel (Contraste quente que combina com sua pele)
-  axon_amber: "#ffb020"      
+  # Braço 3 (DevOps): MAGENTA NEON
+  # Combina com o reflexo de luz no seu rosto na foto
+  axon_amber: "#e879f9"      
   
-  # Tipografia
-  text_bright: "#ffffff"
-  text_dim: "#e9d5ff"
-  text_faint: "#9f8ea6"
+  # Tipografia (Acessibilidade e Leitura)
+  text_bright: "#ffffff"     # Branco
+  text_dim: "#bfbfbf"        # Cinza Claro
+  text_faint: "#525252"      # Cinza Escuro
+
 
 # Métricas
 stats:
